@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "steel_ingot",
+  "ingredients": [
+    {
+      "item": "advancedfisherman:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "advancedfisherman:steel_ingot"
+  }
+}

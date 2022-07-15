@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 175,
+  "experience": 0.7,
+  "group": "steel_ingot",
+  "ingredient": {
+    "item": "advancedfisherman:raw_steel"
+  },
+  "result": "advancedfisherman:steel_ingot"
+}
