@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "advancedfisherman",
+  "version": "${version}",
+
+  "name": "Advanced Fisherman",
+  "description": "This mod adds custom things for fishermen!",
+  "authors": [
+    "YoureAHotFishy"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/advancedfisherman/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.youreahotfishy.advancedfisherman.MainClass"
+    ],
+    "client": [
+      "net.youreahotfishy.advancedfisherman.AdvancedFishermanClient"
+    ]
+  },
+  "mixins": [
+    "advancedfisherman.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
