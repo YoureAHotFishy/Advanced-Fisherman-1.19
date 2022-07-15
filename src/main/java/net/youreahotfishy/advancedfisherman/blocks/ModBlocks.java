@@ -25,7 +25,7 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(4, 7)), ModItemGroup.ADVANCEDFISHERMAN);
 
-    //Blocks Added
+    //Blocks
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.ADVANCEDFISHERMAN);
 

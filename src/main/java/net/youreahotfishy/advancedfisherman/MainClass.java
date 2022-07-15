@@ -18,6 +18,6 @@ public class MainClass implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		LOGGER.info("Mod Loaded.");
+		LOGGER.info("Advanced Fisherman Mod Loaded.");
 	}
 }
