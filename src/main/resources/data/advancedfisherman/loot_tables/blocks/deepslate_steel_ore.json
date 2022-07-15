@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "advancedfisherman:deepslate_steel_ore"
+              "name": "minecraft:deepslate_steel_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "advancedfisherman:deepslate_raw_steel"
+              "name": "advancedfisherman:raw_steel"
             }
           ]
         }
