@@ -18,11 +18,11 @@ public class ModBlocks {
 
     //Ore Blocks
     public static final Block STEEL_ORE = registerBlock("steel_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.ADVANCEDFISHERMAN);
 
     public static final Block DEEPSLATE_STEEL_ORE = registerBlock("deepslate_steel_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool(),
                     UniformIntProvider.create(4, 7)), ModItemGroup.ADVANCEDFISHERMAN);
 
     //Blocks

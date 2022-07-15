@@ -1,7 +1,7 @@
 {
-  "type": "minecraft:smelting",
-  "cookingtime": 175,
-  "experience": 0.7,
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.8,
   "group": "steel_ingot",
   "ingredient": {
     "item": "advancedfisherman:raw_steel"
