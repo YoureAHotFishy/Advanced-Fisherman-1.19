@@ -1,6 +1,7 @@
 package net.youreahotfishy.advancedfisherman;
 
 import net.fabricmc.api.ModInitializer;
+import net.youreahotfishy.advancedfisherman.blocks.ModBlocks;
 import net.youreahotfishy.advancedfisherman.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class MainClass implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Mod Loaded.");
 	}

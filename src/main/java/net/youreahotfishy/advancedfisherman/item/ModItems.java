@@ -9,7 +9,7 @@ import net.youreahotfishy.advancedfisherman.MainClass;
 public class ModItems {
 
     public static final Item RAW_STEEL = registerItem("raw_steel",
-            new Item(new FabricItemSettings().group(ModItemGroup.RAW_STEEL)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ADVANCEDFISHERMAN)));
 
 
 

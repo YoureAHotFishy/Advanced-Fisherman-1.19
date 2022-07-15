@@ -7,6 +7,6 @@ import net.minecraft.util.Identifier;
 import net.youreahotfishy.advancedfisherman.MainClass;
 
 public class ModItemGroup {
-    public static final ItemGroup RAW_STEEL = FabricItemGroupBuilder.build(
+    public static final ItemGroup ADVANCEDFISHERMAN = FabricItemGroupBuilder.build(
             new Identifier(MainClass.MOD_ID, "advancedfisherman"), () -> new ItemStack(ModItems.RAW_STEEL));
 }
