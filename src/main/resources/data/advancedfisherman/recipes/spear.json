@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "advancedfisherman:steel_ingot"
+    },
+    "^": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " ##",
+    " ^#",
+    "^  "
+  ],
+  "result": {
+    "item": "advancedfisherman:spear"
+  }
+}

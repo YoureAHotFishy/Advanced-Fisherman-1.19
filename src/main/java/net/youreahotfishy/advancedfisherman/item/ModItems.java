@@ -2,9 +2,12 @@ package net.youreahotfishy.advancedfisherman.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.youreahotfishy.advancedfisherman.MainClass;
+import net.youreahotfishy.advancedfisherman.item.custom.ModBleedingSpearItem;
+import net.youreahotfishy.advancedfisherman.item.custom.SpearGunItem;
 
 public class ModItems {
 
@@ -15,6 +18,13 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.ADVANCEDFISHERMAN)));
 
+    //Tools
+    public static final Item SPEAR_GUN = registerItem("spear_gun",
+            new SpearGunItem(new FabricItemSettings().group(ModItemGroup.ADVANCEDFISHERMAN).maxCount(1)));
+
+    public static final Item SPEAR = registerItem("spear",
+            new ModBleedingSpearItem(ModToolMaterials.STEEL, 6, 0f,
+                    new FabricItemSettings().group(ModItemGroup.ADVANCEDFISHERMAN).maxCount(1)));
 
 
     //Item Registry
